@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* styling the body */
 body{
     background: #e8f0e5;
 }
@@ -16,6 +17,7 @@ body{
     background: #007bff;
 }
 
+/* styling the buttons*/
 .start_btn,
 .info_box,
 .quiz_box,
@@ -28,6 +30,7 @@ body{
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* styling the boxes*/
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult{
@@ -37,6 +40,7 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
+/*styling for start button*/
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
@@ -48,7 +52,7 @@ body{
     background: #fff;
     cursor: pointer;
 }
-
+/*styling for information box - appears at start of quiz*/
 .info_box{
     width: 540px;
     background: #fff;
@@ -107,6 +111,7 @@ body{
     transition: all 0.3s ease;
 }
 
+/*styling for quiz box - shows each question*/
 .quiz_box{
     width: 550px;
     background: #fff;
@@ -117,6 +122,7 @@ body{
     transition: all 0.3s ease;
 }
 
+/* styling for header at top of quiz box */
 .quiz_box header{
     position: relative;
     z-index: 2;
@@ -175,6 +181,8 @@ body{
     height: 3px;
     background: #007bff;
 }
+
+/* styling for the rest of the quiz box */
 
 section{
     padding: 25px 30px 20px 30px;
@@ -242,6 +250,8 @@ section .option_list .option .icon{
     transition: all 0.3s ease;
     line-height: 24px;
 }
+
+/* styling for list of options shown in quiz box */
 .option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
@@ -262,6 +272,8 @@ footer{
     justify-content: space-between;
     border-top: 1px solid lightgrey;
 }
+
+/* styling for footer at end of quiz box */
 
 footer .total_que span{
     display: flex;
@@ -321,6 +333,8 @@ footer button.show{
     transition: all 0.3s ease;
 }
 
+/* styling for result box*/
+
 .result_box .icon{
     font-size: 100px;
     color: #007bff;
@@ -362,6 +376,8 @@ footer button.show{
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+
+/* styling for restart  and quit buttons*/
 
 .buttons button.restart{
     color: #fff;
