@@ -2,59 +2,116 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "When does St Patricks day happen?",
+    answer: "17th March",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "17th February",
+      "17th March",
+      "17th April",
+      "17th May"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What is the symbol for St Patricks day?",
+    answer: "Clover Leaf",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Heart",
+      "Rose",
+      "Angel",
+      "Clover Leaf"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Why do peope wear green clothes on St Patricks day?",
+    answer: "To avoid being pinched",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "For luck",
+      "For camouflage",
+      "To avoid being pinched",
+      "Because they're Irish"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "What was St Patricks name when he was born?",
+    answer: "Maewyn Succat",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Maewyn Succat",
+      "Treret Beckette",
+      "Alden Batilde",
+      "Joseph Murphy"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What creature did St Patrick allegedly banish from Ireland?",
+    answer: "Snake",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Bat",
+      "Snake",
+      "Scorpion",
+      "Spider"
     ]
   },
+  {
+    numb: 6,
+    question: "Which city in the US hosted the first St Patricks day parade?",
+    answer: "New York",
+    options: [
+      "Chicago",
+      "San Francisco",
+      "Boston",
+      "New York"
+    ]
+  },
+  {
+    numb: 7,
+    question: "Which dish is often eaten in the US on St Patricks day?",
+    answer: "Cabbage and Corned Beef",
+    options: [
+      "Sauerkraut and Sausage",
+      "Ring cake",
+      "Cabbage and Corned Beef",
+      "Soda Bread"
+    ]
+  },
+  {
+    numb: 8,
+    question: "According to old Irish stories, what did the walking stick of St Patrick turn into?",
+    answer: "A tree",
+    options: [
+      "A tree",
+      "A sword",
+      "A broom",
+      "A cross"
+    ]
+  },
+  {
+    numb: 9,
+    question: "According to a popular belief what do leprachauns bury at the end of a rainbow?",
+    answer: "A pot of gold",
+    options: [
+      "A shamrock",
+      "A pair of shoes",
+      "A pot of gold",
+      "A bag of sweets"
+    ]
+  },
+  {
+    numb: 10,
+    question: "When did green become the symbolic colour of St Patrick?",
+    answer: "In the Irish Rebellion in the 18th century",
+    options: [
+      "In the Irish Rebellion in the 18th century",
+      "After the first world war",
+      "After the second world war",
+      "During the reign of Queen Elizabeth the First"
+    ]
+  },
+
+
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
